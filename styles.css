@@ -123,7 +123,7 @@ a{
     grid-column: 4/-1;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 15px;
+    grid-gap: 20px;
     
 }
 
@@ -153,6 +153,61 @@ p{
     font-family: cursive;
     font-size: 20px;
     color:  rgb(165, 165, 165);
+}
+
+@media (max-width:  1024px) {
+
+    .container{
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .sidebar{
+        grid-row: 1/2;
+        grid-column: 2/12;
+        position: relative;
+        margin: 0px;
+        margin-bottom: 80px;
+        padding: 0px;
+
+    }
+    .site-header{
+        margin-bottom: 0px;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .menu-toggle{ /*toggle for menu in mobile mode*/
+        display: block;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .menu-toggle:hover{
+        background-color: rgb(227, 227, 227);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .content{
+        grid-row: 3/-1;
+        grid-column: 1/-1;
+    }
+
+    .gallery-item{
+        /*border: solid orange;*/
+        grid-column: 2/12;
+    }
+
+    .toggle-open{
+        display: block;
+    }    
+
 }
 
 

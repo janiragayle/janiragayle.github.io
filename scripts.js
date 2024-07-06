@@ -1,9 +1,10 @@
 const subMenus = [...document.querySelectorAll(".sub-menu")];
 const arrowButtons = [...document.querySelectorAll(".dropdown-toggle")];
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-menu");
 
 
-
-function handleClick(e){
+function handleArrowClick(e){
     
     console.log(e.target.classList[1]);
 
@@ -22,4 +23,15 @@ function handleClick(e){
     });
 };
 
-arrowButtons.forEach(arrowButton => arrowButton.addEventListener('click', handleClick));
+function handleMenuClick(e){
+    console.log(e);
+    if (navMenu.classList[1] === "toggle-open"){
+        navMenu.classList.remove("toggle-open")
+    }else{
+        navMenu.classList.add("toggle-open")
+    }
+    
+}
+
+arrowButtons.forEach(arrowButton => arrowButton.addEventListener('click', handleArrowClick));
+menuToggle.addEventListener('click', handleMenuClick);
