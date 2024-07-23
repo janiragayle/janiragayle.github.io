@@ -1,3 +1,5 @@
+//hi
+
 const subMenus = [...document.querySelectorAll(".sub-menu")];
 const arrowButtons = [...document.querySelectorAll(".dropdown-toggle")];
 const menuToggle = document.querySelector(".menu-toggle");
