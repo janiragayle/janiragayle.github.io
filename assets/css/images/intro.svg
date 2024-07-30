@@ -26,6 +26,9 @@
 			#petals{
 				display:none;
 			}
+            .leaves{
+                display:none;
+            }
 		}
     ]]></style>
     
@@ -51,8 +54,8 @@
         <ellipse cx="750" cy="200" rx="20" ry="30" transform="rotate(337.5 750 250)" class="petal"/>
     </g>
 
-        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(45 820 530)" class="petal"/>
-        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(292.5 620 458)" class="petal"/>
+        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(45 820 530)" class="leaves"/>
+        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(292.5 620 458)" class="leaves"/>
 	
 	 <!-- Curved Stem -->
 
