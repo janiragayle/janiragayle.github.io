@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
     <style type="text/css"><![CDATA[
         .petal {
-            fill: rgba(255, 250, 250, 0.1);
+            fill: rgba(255, 194, 204, 0.2);
 
         }
         
@@ -20,8 +20,8 @@
             stroke-width: 8;
         }
 
-        .leaves {
-            fill: rgba(255, 250, 250, 0.1);
+        .leaf {
+            fill: rgba(255, 209, 217, 0.1);
         }
 
 		@media screen and (max-width: 1280px){
@@ -59,9 +59,10 @@
         <ellipse cx="750" cy="200" rx="20" ry="30" transform="rotate(337.5 750 250)" class="petal"/>
     </g>
 
-        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(45 820 530)" class="leaves"/>
-        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(292.5 620 458)" class="leaves"/>
-	
+    <g id="leaves">
+        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(45 820 530)" class="leaf"/>
+        <ellipse cx="700" cy="500" rx="12" ry="22" transform="rotate(292.5 620 458)" class="leaf"/>
+	</g>
 	 <!-- Curved Stem -->
 
 </svg>
