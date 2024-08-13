@@ -1,1 +1,1 @@
-View here: janiragayle.com
+View at www.janiragayle.com
