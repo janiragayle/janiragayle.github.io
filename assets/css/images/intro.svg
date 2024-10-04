@@ -31,7 +31,7 @@
 			#petals{
 				display:none;
 			}
-            .leaves{
+            .leaf{
                 display:none;
             }
 		}
