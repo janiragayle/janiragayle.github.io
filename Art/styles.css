@@ -162,7 +162,6 @@ p{
     }
 
     .sidebar{
-        grid-row:;
         grid-column: 2/12;
         position: relative;
         margin: 0px;
