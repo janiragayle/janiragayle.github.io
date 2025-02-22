@@ -1829,6 +1829,12 @@ ol, ul {
 			display:flex;
 		}
 
+		@media screen and (max-height: 1800px){
+			#sidebar {
+				margin-top: 100px;
+			}
+		}
+
 		
 
 /* Intro */
