@@ -228,7 +228,7 @@ p{
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensures the image fills the circular frame */
-  object-position: center -40px;
+  object-position: center 50%;
 }
 
 
