@@ -110,3 +110,28 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 }
+
+
+const heroImage = document.getElementById("hero-img");
+
+// List of image paths you want to cycle through
+const heroImages = [
+  "Imgs/Photography/grad/080A4276.jpg",
+  "Imgs/Photography/grad/080A4446.jpg",
+  "Imgs/Photography/grad/080A1485.jpg",
+  "Imgs/Photography/grad/080A4611.jpg"
+];
+
+let currentImageIndex = 0;
+
+function cycleHeroImage() {
+  heroImage.classList.add("fade");
+  setTimeout(() => {
+    currentImageIndex = (currentImageIndex + 1) % heroImages.length;
+    heroImage.src = heroImages[currentImageIndex];
+    heroImage.classList.remove("fade");
+  }, 2000); // Halfway through the transition
+}
+
+// Change image every 5 seconds
+setInterval(cycleHeroImage, 4000);
