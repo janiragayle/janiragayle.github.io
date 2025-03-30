@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join My Creative List</title>
+    <link rel="stylesheet" href="newsletter.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="name hover" href="flower-composites.html">JANIRA GAYLE</a>
+    </header>
+
+    <!-- Floating polaroids -->
+    <div class="floating-polaroids">
+      <img
+        src="Imgs/Photography/Flower Composites/compsoite 2.jpg"
+        class="polaroid"
+        style="top: 15%; left: 5%"
+      />
+      <img
+        src="Imgs/Photography/Flower Composites/composite 10.jpg"
+        class="polaroid"
+        style="top: 65%; left: 80%"
+      />
+      <img
+        src="Imgs/Paintings/A2550CC7-B363-4C00-91A1-ADFB93E92BF3.jpeg"
+        class="polaroid"
+        style="top: 45%; left: 15%"
+      />
+      <img
+        src="Imgs/Collage/A76B6C01-0EDA-49EC-AB93-4A3A821575DA.jpeg"
+        class="polaroid"
+        style="top: 5%; left: 75%"
+      />
+    </div>
+
+    <div class="newsletter-wrapper">
+      <div class="newsletter-card">
+        <h1 class="title">Stay Connected with my Art</h1>
+        <p class="subtext">
+          Sign up to receive monthly updates about new work, behind-the-scenes
+          on my creative process & much more!📸
+        </p>
+
+        <form
+          class="newsletter-form"
+          action="https://script.google.com/macros/s/AKfycbznWzJkvaD34fpatzu2vEkdba_6UwFThZTeMQRaI3z7gEsCvpoAXkIJppalTV8rZ1psQQ/exec"
+          method="post"
+        >
+          <div class="email-hover-container">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <p class="footnote">No spam. Just art and vibes ~</p>
+      </div>
+    </div>
+
+    <script src="newsletter.js"></script>
+  </body>
+</html>
