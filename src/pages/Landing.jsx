@@ -12,7 +12,7 @@ export default function Landing() {
           → Photography
         </Link>
 
-        <Link className="hover" to="/photography" style={{ fontSize: 18 }}>
+        <Link className="hover" to="/fine-arts" style={{ fontSize: 18 }}>
           → Fine Arts
         </Link>
       </div>
