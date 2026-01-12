@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import ArtLayout from "../layouts/ArtLayout";
 import Gallery from "../components/Gallery";
@@ -20,3 +21,10 @@ export default function FineArtsLanding() {
     </ArtLayout>
   );
 }
+*/
+
+// src/pages/Newsletter.jsx
+export default function FineArts() {
+    return <div>Fine Arts (coming soon)</div>;
+  }
+  
