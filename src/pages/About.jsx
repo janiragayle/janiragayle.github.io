@@ -18,11 +18,11 @@ export default function About() {
           <br />
 
           <h3>
-            Janira is a 22-year-old photographer, fine artist, and web developer based in Brooklyn, New
+            Janira is a photographer, fine artist, and web developer based in Brooklyn, New
             York.
             <br />
             <br />
-            She recently graduated from Columbia University with a Bachelors in Computer Science and Visual Arts.
+            She holds her Bachelor of Arts from Columbia University in Computer Science and Visual Arts.
             <br />
             <br />
             Janira&apos;s passion for art is deeply rooted in an exploration of

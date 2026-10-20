@@ -49,6 +49,11 @@ export default function Sidebar() {
             {/* Indented links (always visible) */}
             <ul className="sub-menu photography-menu toggle-open">
               <li className="sub-menu-option">
+                <Link className="hover" to="/photography/nyfw">
+                  NYFW
+                </Link>
+              </li>
+              <li className="sub-menu-option">
                 <Link className="hover" to="/photography/portraits">
                   Portraits
                 </Link>

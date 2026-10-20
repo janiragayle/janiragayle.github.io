@@ -7,7 +7,7 @@ import Landing from "./pages/Landing";
 // --- PHOTOGRAPHY ---
 import PhotographyLanding from "./pages/PhotographyLanding";
 import Portraits from "./pages/Portraits";
-import Events from "./pages/Events";
+import Nyfw from "./pages/nyfw"; 
 import Conceptual from "./pages/Conceptual";
 
 // // --- FINE ARTS ---
@@ -27,7 +27,7 @@ export default function App() {
       {/* ================= PHOTOGRAPHY ================= */}
       <Route path="/photography" element={<PhotographyLanding />} />
       <Route path="/photography/portraits" element={<Portraits />} />
-      <Route path="/photography/events" element={<Events />} />
+      <Route path="/photography/nyfw" element={<Nyfw />} />
       <Route path="/photography/conceptual" element={<Conceptual />} />
 
       {/* ================= FINE ARTS ================= */}
