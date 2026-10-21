@@ -14,6 +14,9 @@ import Conceptual from "./pages/Conceptual";
 import FineArtsLanding from "./pages/FineArtsLanding";
 import Paintings from "./pages/Paintings";
 import WorksOnPaper from "./pages/WorksOnPaper";
+import Studies from "./pages/Studies";
+import MixedMedia from "./pages/MixedMedia";
+import Collage from "./pages/Collage";
 
 // --- GLOBAL ---
 import About from "./pages/About";
@@ -35,6 +38,9 @@ export default function App() {
       <Route path="/fine-arts" element={<FineArtsLanding />} />
       <Route path="/fine-arts/paintings" element={<Paintings />} />
       <Route path="/fine-arts/works-on-paper" element={<WorksOnPaper />} />
+      <Route path="/fine-arts/studies" element={<Studies />} />
+      <Route path="/fine-arts/mixed-media" element={<MixedMedia />} />
+      <Route path="/fine-arts/collage" element={<Collage />} />
 
       {/* ================= GLOBAL ================= */}
       <Route path="/about" element={<About />} />
