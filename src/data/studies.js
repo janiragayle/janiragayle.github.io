@@ -1,4 +1,7 @@
 export const studies = [
+  { src: "/Imgs/Studies/380684948_824203962782676_97174843350240996_n.jpg", alt: "" },
+  { src: "/Imgs/Studies/380855423_634763195470264_8000245768308274105_n.jpg", alt: "" },
+  
   { src: "/Imgs/Studies/3F51C2DA-0265-4708-A912-346A45B79D0A_1_105_c.jpeg", alt: "" },
   { src: "/Imgs/Studies/8AD50980-E37A-4989-8815-6CFC422E2399_1_105_c.jpeg", alt: "" },
   { src: "/Imgs/Studies/09D9DF94-CFB9-40C2-B6B0-A79F6DB35E87_1_105_c.jpeg", alt: "" },
@@ -19,8 +22,8 @@ export const studies = [
   { src: "/Imgs/Studies/2023-09-28 12.16.45.jpg", alt: "" },
   { src: "/Imgs/Studies/2023-09-28 12.47.12.jpg", alt: "" },
   { src: "/Imgs/Studies/2438A7C5-0BA2-4663-926A-49DC3A02BD66_1_105_c.jpeg", alt: "" },
-  { src: "/Imgs/Studies/380684948_824203962782676_97174843350240996_n.jpg", alt: "" },
-  { src: "/Imgs/Studies/380855423_634763195470264_8000245768308274105_n.jpg", alt: "" },
+  
+  
   { src: "/Imgs/Studies/A52D6E48-F08D-409A-90AD-4D35C7E6E522_1_105_c.jpeg", alt: "" },
   { src: "/Imgs/Studies/A0808B0F-C19E-4869-AFC8-5A3ED6DCFC7A_1_105_c.jpeg", alt: "" },
   { src: "/Imgs/Studies/AEB20443-3D34-4BD8-9D77-77CB6B4009E8.jpeg", alt: "" },

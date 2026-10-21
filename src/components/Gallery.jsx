@@ -29,7 +29,7 @@ export default function Gallery({ images, wrapperClassName = "content" }) {
           onClick={() => openAt(i)}
           style={{ cursor: "pointer" }}
         >
-          <img src={img.src} alt={img.alt || ""} />
+          <img src={img.src} alt={img.alt || ""} loading="lazy" decoding="async" />
         </div>
       ))}
 

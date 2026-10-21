@@ -41,6 +41,40 @@ export default function Sidebar() {
 
       <div className="nav-menu-container">
         <ul className={navMenuClass}>
+          {/* Fine Arts (always visible, same pattern as Photography) */}
+          <li className="work no-toggle">
+            <Link className="hover" to="/fine-arts">
+              Fine Arts
+            </Link>
+
+            <ul className="sub-menu fine-arts-menu toggle-open">
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/paintings">
+                  Paintings
+                </Link>
+              </li>
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/works-on-paper">
+                  Works on Paper
+                </Link>
+              </li>
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/studies">
+                  Studies
+                </Link>
+              </li>
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/mixed-media">
+                  Mixed Media
+                </Link>
+              </li>
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/collage">
+                  Collage
+                </Link>
+              </li>
+            </ul>
+          </li>
           {/* Photography (always visible) */}
           <li className="photography no-toggle">
             {/* Header label (not a dropdown) */}
@@ -52,7 +86,7 @@ export default function Sidebar() {
             <ul className="sub-menu photography-menu toggle-open">
               <li className="sub-menu-option">
                 <Link className="hover" to="/photography/nyfw">
-                  NYFW
+                  NYFW - Feb'26
                 </Link>
               </li>
               <li className="sub-menu-option">
@@ -73,25 +107,7 @@ export default function Sidebar() {
             </ul>
           </li>
 
-          {/* Fine Arts (always visible, same pattern as Photography) */}
-          <li className="work no-toggle">
-            <Link className="hover" to="/fine-arts">
-              Fine Arts
-            </Link>
-
-            <ul className="sub-menu fine-arts-menu toggle-open">
-              <li className="sub-menu-option">
-                <Link className="hover" to="/fine-arts/paintings">
-                  Paintings
-                </Link>
-              </li>
-              <li className="sub-menu-option">
-                <Link className="hover" to="/fine-arts/works-on-paper">
-                  Works on Paper
-                </Link>
-              </li>
-            </ul>
-          </li>
+          
 
           {/* About / CV */}
           <li className="about-cv no-toggle">
