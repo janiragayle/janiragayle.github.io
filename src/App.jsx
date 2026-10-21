@@ -7,7 +7,7 @@ import Landing from "./pages/Landing";
 // --- PHOTOGRAPHY ---
 import PhotographyLanding from "./pages/PhotographyLanding";
 import Portraits from "./pages/Portraits";
-import Nyfw from "./pages/nyfw"; 
+import Nyfw from "./pages/Nyfw"; 
 import Conceptual from "./pages/Conceptual";
 
 // // --- FINE ARTS ---
