@@ -18,16 +18,14 @@ export default function About() {
           <br />
 
           <h3>
-            Janira is a photographer, fine artist, and web developer based in Brooklyn, New
-            York.
-            <br />
-            <br />
-            She holds her Bachelor of Arts from Columbia University in Computer Science and Visual Arts.
+            Janira Esperanza Gayle, know artistically as Nira Esperanza is a fine artist, and creative technologist. 
+            She was born and raised in Brooklyn and is currently based in Bronx, New
+            York. She graduated class of 2025 from Columbia University with a B.A. in Computer Science and Visual Arts.
             <br />
             <br />
             Janira&apos;s passion for art is deeply rooted in an exploration of
             cultural boundaries, heritage, and identity. She enjoys experiementing with different meduims
-            to express these themes, particularly through photography and fine arts.
+            to express these themes, particularly through photography, fiber arts, and painting.
             She creates deeply personal works that serve as both a means of
             healing and a way to process the complexities of generational curses
             and blessings. Her art becomes a bridge between the past and
