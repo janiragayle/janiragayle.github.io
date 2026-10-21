@@ -9,7 +9,7 @@ export default function PhotographyLanding() {
       <Gallery images={photographyLanding} wrapperClassName="content-photography-landing" />
 
       <div className="back-to-top">
-        <a href="#top">TOP</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>TOP</a>
       </div>
     </SiteLayout>
   );

@@ -16,7 +16,7 @@ export default function FineArtsLanding() {
       <Gallery images={fineArtsPreview} wrapperClassName="content" />
 
       <div className="back-to-top">
-        <a href="#top">TOP</a>
+        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>TOP</a>
       </div>
     </ArtLayout>
   );
