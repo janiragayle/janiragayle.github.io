@@ -13,6 +13,7 @@ import Conceptual from "./pages/Conceptual";
 // // --- FINE ARTS ---
 import FineArtsLanding from "./pages/FineArtsLanding";
 import Paintings from "./pages/Paintings";
+import WorksOnPaper from "./pages/WorksOnPaper";
 
 // --- GLOBAL ---
 import About from "./pages/About";
@@ -33,6 +34,7 @@ export default function App() {
       {/* ================= FINE ARTS ================= */}
       <Route path="/fine-arts" element={<FineArtsLanding />} />
       <Route path="/fine-arts/paintings" element={<Paintings />} />
+      <Route path="/fine-arts/works-on-paper" element={<WorksOnPaper />} />
 
       {/* ================= GLOBAL ================= */}
       <Route path="/about" element={<About />} />

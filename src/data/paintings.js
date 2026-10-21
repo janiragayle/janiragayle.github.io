@@ -4,5 +4,8 @@ export const paintings = [
     { src: "/Imgs/Paintings/176238899_199422971780033_8782690573640185911_n.jpg", alt: "" },
     { src: "/Imgs/Paintings/14_Expressive self portrait.jpg", alt: "" },
     { src: "/Imgs/Paintings/08FC639B-98E8-4FBB-ABCE-FB16AFA4D6D6_1_105_c.jpeg", alt: "" },
+    { src: "/Imgs/Paintings/Janira_Gayle-Fort_Greene_University_2024_Oil.jpeg", alt: "" },
+    { src: "/Imgs/Paintings/Red Shoulder.jpg", alt: "" },
+    { src: "/Imgs/Paintings/Water park in back yard.jpg", alt: "" },
   ];
   

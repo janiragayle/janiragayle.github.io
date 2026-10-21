@@ -16,15 +16,17 @@ export default function Sidebar() {
 
   const subMenuClass = (key) => {
     // matches your CSS pattern: .sub-menu ... + toggle-open
-    return openMenuKey === key ? `sub-menu ${key} toggle-open` : `sub-menu ${key}`;
+    return openMenuKey === key
+      ? `sub-menu ${key} toggle-open`
+      : `sub-menu ${key}`;
   };
 
   return (
     <div className="sidebar">
       <header className="site-header">
         {/* name routes to photography landing by default */}
-        <Link className="name hover" to="/  ">
-          JANIRA GAYLE
+        <Link className="name hover" to="/">
+          NIRA ESPERANZA
         </Link>
 
         <button
@@ -71,11 +73,24 @@ export default function Sidebar() {
             </ul>
           </li>
 
-          {/* Fine Arts (single link for now) */}
+          {/* Fine Arts (always visible, same pattern as Photography) */}
           <li className="work no-toggle">
             <Link className="hover" to="/fine-arts">
               Fine Arts
             </Link>
+
+            <ul className="sub-menu fine-arts-menu toggle-open">
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/paintings">
+                  Paintings
+                </Link>
+              </li>
+              <li className="sub-menu-option">
+                <Link className="hover" to="/fine-arts/works-on-paper">
+                  Works on Paper
+                </Link>
+              </li>
+            </ul>
           </li>
 
           {/* About / CV */}

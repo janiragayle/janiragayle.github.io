@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Landing() {
   return (
     <div style={{ padding: "48px 24px", maxWidth: 900, margin: "0 auto" }}>
-      <h1 style={{ marginBottom: 16 }}>JANIRA GAYLE</h1>
+      <h1 style={{ marginBottom: 16 }}>NIRA ESPERANZA</h1>
       <p style={{ marginBottom: 32 }}>Photographer & Visual Artist</p>
 
       <div style={{ display: "grid", gap: 16 }}>
